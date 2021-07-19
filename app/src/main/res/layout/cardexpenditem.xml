@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardexpendMain"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginEnd="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="175dp"
+        android:layout_height="160dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        app:contentPaddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/cardExpendImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/physicslogo" />
+
+            <TextView
+                android:id="@+id/cardExpendText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardExpendImage"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="Momentum"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

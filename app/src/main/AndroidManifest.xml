@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.momentum.coaching">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/momentumlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/momentumlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".englishpreposition.PrepositionActivity"/>
+        <activity
+            android:name=".englishproverbs.EnglishProverbs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".allmodeltest.ModelFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".diploma.DiplomaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.englishl.LeaderBoardEnglI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.englishl.LeaderBoardEnglE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.englishl.LeaderBoardEnglB"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.chemistry.LeaderBoardCheI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.chemistry.LeaderBoardCheE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.chemistry.LeaderBoardCheB"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.physics.LeaderBoardPhyI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.physics.LeaderBoardPhyE"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.physics.LeaderBoardPhyB"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.finalscore.LeaderBoardFinal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leaderboard.LeaderScoreLevel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scoreboard.FinalScoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scoreboard.LocalScoreViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scoreboard.UserScoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scoreboard.UserLevel_Score"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.RandomQuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.RandomActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.QuestionSection3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.User_Level3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.User_Level2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.QuestionSection2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.WrongQuestion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.ResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.QuestionSection1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quiz.User_Level1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".authentication.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".externalfile.ExternalFileListActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".webview.WebViewActivity" />
+        <activity
+            android:name=".allmodeltest.ModelTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bcspreliminary.BCSActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".civiljob.CivilJobSolution"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".cloudmessage.GettingDeviceToken"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".cloudmessage.FirebaseMessage">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".notification.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DeveloperActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.PdfView" />
+        <activity
+            android:name=".activity.Splash_Screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admobBanneradsMain"/>
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#283754</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="toolbarColor">#77A6CC</color>
+    <color name="white">#fff</color>
+    <color name="duet">#5CAC83</color>
+    <color name="gray">#6E7E8E</color>
+    <color name="window">#283754</color>
+    <color name="countercolor">#EAC100</color>
+    <color name="cornershap">#DA283754</color>
+    <color name="shadow">#25283754</color>
+    <color name="light_gray">#3CD8D8D8</color>
+    <color name="pastcolorPrimary">#5CAC83</color>
+    <color name="pastwindow">#549274</color>
+    <color name="redcolor">#8C0000</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="colorLogin">#4A5C7A</color>
+    <color name="answer_color">#008000</color>
+</resources>

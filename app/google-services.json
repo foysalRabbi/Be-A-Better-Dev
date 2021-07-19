@@ -1,0 +1,146 @@
+{
+  "project_info": {
+    "project_number": "301540241509",
+    "firebase_url": "https://momentum-a5cba.firebaseio.com",
+    "project_id": "momentum-a5cba",
+    "storage_bucket": "momentum-a5cba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301540241509:android:87225e083ffdbacd20968c",
+        "android_client_info": {
+          "package_name": "com.SABTech.MomentumClient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301540241509-h35cttetnd0qj17c7khu4igats6sj6ss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNhStAEYd3svdJe02woVaB6sOvMyKZxjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301540241509-h35cttetnd0qj17c7khu4igats6sj6ss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301540241509:android:c25704cb5f6ae41020968c",
+        "android_client_info": {
+          "package_name": "com.momentum.coaching"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301540241509-4ij10b3g88v2sois6c2unuotv1lfc86r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.momentum.coaching",
+            "certificate_hash": "1926370e3f256dd7cc608cb241ebdb6da4b2f626"
+          }
+        },
+        {
+          "client_id": "301540241509-6np1q608s9g12qi5dgcd73c0q8gckdnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.momentum.coaching",
+            "certificate_hash": "4493f9d2448ab06d3d085c22ff913f50201a9bb5"
+          }
+        },
+        {
+          "client_id": "301540241509-l9s16sk1c91jl6tf3pcsaujb0g74eo34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.momentum.coaching",
+            "certificate_hash": "0d5e1ead4360440c1c8823477df40e0eb0f45178"
+          }
+        },
+        {
+          "client_id": "301540241509-tg598l1tat6bilegj1tlpurnsami7p3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.momentum.coaching",
+            "certificate_hash": "92af3103a220f29168eff54eb0e34e7e01139ee4"
+          }
+        },
+        {
+          "client_id": "301540241509-ul13t6bcf29jlu0vsq8r53a9rebsebk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.momentum.coaching",
+            "certificate_hash": "add9ff71b708bfa4b7e4720daa18c306db4222d6"
+          }
+        },
+        {
+          "client_id": "301540241509-h35cttetnd0qj17c7khu4igats6sj6ss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNhStAEYd3svdJe02woVaB6sOvMyKZxjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301540241509-h35cttetnd0qj17c7khu4igats6sj6ss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301540241509:android:79924b8841b932d320968c",
+        "android_client_info": {
+          "package_name": "com.momentum.momentumadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301540241509-5d0cjnp5s9ogkke6q411co699g527sod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.momentum.momentumadmin",
+            "certificate_hash": "4493f9d2448ab06d3d085c22ff913f50201a9bb5"
+          }
+        },
+        {
+          "client_id": "301540241509-h35cttetnd0qj17c7khu4igats6sj6ss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNhStAEYd3svdJe02woVaB6sOvMyKZxjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301540241509-h35cttetnd0qj17c7khu4igats6sj6ss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

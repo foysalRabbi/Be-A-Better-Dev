@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/bcsPreliminary"
+        android:checkable="true"
+        android:icon="@drawable/deparpartmentsolution"
+        android:title="BCS Preliminary" />
+    <item
+        android:id="@+id/diploma"
+        android:checkable="true"
+        android:icon="@drawable/diplomabook"
+        android:title="Diploma Book" />
+    <item
+        android:id="@+id/civil"
+        android:checkable="true"
+        android:icon="@drawable/civilbuilding"
+        android:title="Civil Job Solution" />
+
+    <item
+        android:id="@+id/Model_Test"
+        android:checkable="true"
+        android:icon="@drawable/model_question"
+        android:title="Model Q/A" />
+
+    <item
+        android:id="@+id/downloads"
+        android:checkable="true"
+        android:icon="@drawable/download"
+        android:title="Downloaded File" />
+
+    <item
+        android:id="@+id/developer_item"
+        android:checkable="true"
+        android:icon="@drawable/ic_baseline_developer_icon"
+        android:title="Developers Team" />
+
+    <item
+        android:id="@+id/Feed_back"
+        android:checkable="true"
+        android:icon="@drawable/privacy_policy"
+        android:title="App Feedback" />
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/share_item"
+                android:checkable="true"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/rateus_item"
+                android:checkable="true"
+                android:icon="@drawable/rateus"
+                android:title="Rate Us" />
+
+            <item
+                android:id="@+id/privacy_policy"
+                android:checkable="true"
+                android:icon="@drawable/feedback"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/logout"
+                android:checkable="true"
+                android:icon="@drawable/logout"
+                android:title="Log out" />
+
+        </menu>
+    </item>
+
+
+</menu>

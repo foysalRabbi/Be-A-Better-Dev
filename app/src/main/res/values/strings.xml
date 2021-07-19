@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Momentum</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MOMENTUM</string>
+    <string name="nav_header_subtitle">foysal134038@gmail.com</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="biginer">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="expart">Expert</string>
+    <string name="bani">
+        “চেষ্টা কখনো ছাড়া উচিত নয়, কারণ চাবিগুচ্ছের শেষ চাবিটিও কিন্তু তালা খুলতে পারে”
+    </string>
+
+    <string name="admission">Momentum Suggestions</string>
+    <string name="powered">POWERED BY\nSABTech (Ohid, Shiv, Rehan)</string>
+
+    <string name="physics">Physics</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="math">Mathematics</string>
+    <string name="english">English</string>
+
+
+    <string name="prokashona">প্রকাশক</string>
+    <string name="foysalName">Eng. Md Al Foysal Rabbi(Rehan) \nDhaka University of Engg and Technology</string>
+    <string name="FoysalUniversity">Dhaka University of Engg and Technology</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="userranking">
+        এই রাউন্ডে আপনার জন্য ৩০ টি প্রশ্ন থাকবে। সময়কাল থাকবে ৩০ মিনিট এখানের স্কোর অনুযায়ী আপনার র‌্যাঙ্ক বিবেচনা করা হবে।
+    </string>
+    <string name="NameOhid">Md Ohiduzzaman</string>
+    <string name="University">
+       mdohid7430@gmail.com \nLovely Professional University
+    </string>
+
+
+    <string name="NameShiu">Shiv Kumar</string>
+    <string name="shiva_University">
+       shiukumar05@gmail.com\nLovely Professional University
+    </string>
+
+
+    <string-array name="Subject_Name">
+        <item>C Programming</item>
+        <item>Data Structure</item>
+        <item>Discrete Math</item>
+        <item>Digital Electronics</item>
+        <item>Operating System</item>
+        <item>System Analysis</item>
+        <item>Networking</item>
+        <item>Microprocessor</item>
+        <item>DBMS</item>
+        <item>Transistor</item>
+        <item>Basic Electricity</item>
+        <item>Previous Question</item>
+    </string-array>
+
+    <string-array name="Non_Subject_Name">
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Mathematics</item>
+        <item>English</item>
+        <item>Eng Proverbs</item>
+        <item>Eng Preposition</item>
+    </string-array>
+
+    <string-array name="quiz_subject">
+        <item>Physics Quiz</item>
+        <item>Chemistry Quiz</item>
+        <item>Math Quiz</item>
+        <item>English Quiz</item>
+        <item>Random</item>
+        <item>View Score</item>
+    </string-array>
+    <string-array name="formulas">
+        <item>All Formulas</item>
+        <item>Trigonometric</item>
+        <item>Differentiation</item>
+        <item>Matrix+Determinants</item>
+        <item>Unit Conversion</item>
+        <item>Chemistry Formula</item>
+        <item>Periodic Table</item>
+    </string-array>
+
+    <string-array name="civil_subject">
+        <item>বাংলাদেশ সিভিল সার্ভিস</item>
+        <item>বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড(1)</item>
+        <item>বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড(2)</item>
+        <item>রাজউক</item>
+        <item>টি-টি-সি</item>
+    </string-array>
+
+    <string-array name="Diploma_Name">
+        <item>Programming-2</item>
+        <item>Programming-3</item>
+        <item>System Analysis</item>
+        <item>Microprocessor</item>
+        <item>Data Structure</item>
+        <item>Operating System</item>
+        <item>Networking-1</item>
+        <item>Networking-2</item>
+    </string-array>
+
+    <string-array name="model_tes">
+        <item>Computer</item>
+        <item>Civil</item>
+        <item>Electrical</item>
+        <item>Mechanical</item>
+        <item>All Model Test</item>
+    </string-array>
+
+    <!--//Admob Banner Ad-->
+    <string name="admobBanneradsMain">ca-app-pub-8564881953526360~5242542378</string>
+    <string name="admobBanneradsXML">ca-app-pub-8564881953526360/3901540549</string>
+
+    <!--//Admob Interestitial Ad-->
+    <string name="mInterstitialAd">ca-app-pub-8564881953526360/4416885174</string>
+    <!--//Testing Code Below-->
+    <!--<string name="mInterstitialAd">ca-app-pub-3940256099942544/1033173712</string>-->
+
+    <!--//Facebook Banner and Interstial ad-->
+    <string name="facebook_interstial">475797103264462_544861433024695</string>
+    <string name="facebookBannerAds">475797103264462_545048733005965</string>
+
+</resources>
